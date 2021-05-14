@@ -1,8 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import WeatherSearch from "./WeatherSearch";
+
+import "./App.css";
+
+function App() {
+  return (
+    <div className="App">
+      <h1>Weather App</h1>
+      <WeatherSearch />
+    </div>
+  )
+}
 
 ReactDOM.render(
   <React.StrictMode>
